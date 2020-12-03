@@ -6,12 +6,15 @@
     Dev dependencies
         -nodemon
 3.Create Express server -create a server.js file.
-4.Create home page using html and CSS
-    -inclue tailwind CSS
+  Git setup and first commit.
+ Install Laravel Mix
+    -setup js and scss
+4.Create home page using html and CSS.
+    -inclue tailwind CSS.
 5.Create Cart page.
-    -order summary section
-    -empty cart section
-Create Order controller and link it in server.js
-Create view with table for customer and admin
-Create orders single page with status
-[-]Create login page with route.
+    -order summary section.
+    -empty cart section.
+6.Create Order controller and link it in server.js.
+7.Create view with table for customer and admin.
+8.Create orders single page with status.
+9.Create login page with route.

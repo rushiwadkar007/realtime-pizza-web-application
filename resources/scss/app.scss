@@ -1,0 +1,44 @@
+@import "variables.scss";
+body {
+  font-family: "Lato", "sans-serif";
+  -webkit-font-smoothing: antialised;
+  color: #232323;
+}
+nav{
+    background: grey;
+    padding:20px;
+}
+nav li:last-child a {
+    background: $primary; 
+    &:hover{
+        background: $primary;
+    }
+}
+
+nav li a {
+    transition: &smooth;
+    &:hover{
+        color: $primary;
+    }
+  
+}
+
+section.hero{
+    background: $secondary;
+}
+
+.size{
+    background: grey;
+}
+
+
+.add-to-cart{
+    border: 4px solid $primary;
+    color: $primary;
+    transition: $smooth;
+    &:hover{
+        background:$primary;
+        border-color: $pure;
+        color: $pure;
+    }
+}

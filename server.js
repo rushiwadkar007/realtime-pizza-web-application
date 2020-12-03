@@ -13,6 +13,8 @@ const PORT = process.env.PORT || 3000
 
 
 //home page
+app.use(express.static('public'));
+
 app.get('/',(req, res)=>{
     res.render('home');
 });
